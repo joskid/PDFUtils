@@ -1,0 +1,6 @@
+[submodule "PDFUtils/vendor/spdlog"]
+	path = PDFUtils/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "PDFUtils/vendor/libui"]
+	path = PDFUtils/vendor/libui
+	url = https://github.com/andlabs/libui.git
