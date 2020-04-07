@@ -40,7 +40,17 @@ project "PDFUtils"
 	includedirs
 	{
 		"PDFUtils/vendor",
-		"PDFUtils/vendor/spdlog/include"
+		"PDFUtils/vendor/spdlog/include",
+	}
+	
+	libdirs 
+	{
+		"PDFUtils/vendor/libui/build/meson-out/"
+	}
+	
+	links 
+	{ 
+		"libui.lib"
 	}
 
 	filter "system:windows"
